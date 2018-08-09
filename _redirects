@@ -1,2 +1,3 @@
 # Redirect default Netlify subdomain to primary domain
-http://culturelab.netlify.com/* http://culture-lab.in/:splat 301!
+http://culturelab.netlify.com/* https://culture-lab.in/:splat 301!
+https://culturelab.netlify.com/* https://culture-lab.in/:splat 301!
