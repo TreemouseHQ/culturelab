@@ -1,7 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-text-size-adjust: none
   margin: 0px;
   padding: 0px;
   font-weight: 300;
@@ -408,6 +407,10 @@ html::-webkit-scrollbar {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  html{
+    -webkit-text-size-adjust: none;
+  }
+  
   body {
     font-size: 10px;
   }
