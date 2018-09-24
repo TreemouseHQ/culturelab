@@ -410,18 +410,25 @@ html::-webkit-scrollbar {
   body {
     font-size: 10px;
   }
+  time {
+    font-size: 1.2em;
+  }
   .nobreak {
     white-space: normal;
   }
   .line {
-    border-bottom: 6px solid black;
+    border-bottom: 3px solid black;
+  }
+  #hero {
+    margin-bottom: 0;
   }
   .intro {
-    padding-bottom: 10em;
-    border-bottom: 6px solid black;
+    padding-bottom: 6em;
+    border-bottom: 3px solid black;
   }
   .intro h1 {
     margin: 2em 0;
+    grid-column: 1 / -1;
   }
   .intro img {
     display: none;
@@ -429,16 +436,19 @@ html::-webkit-scrollbar {
   .intro h2 {
     grid-column: 1 / -1;
   }
-  .section-header h1 {
-    margin-bottom: 1em;
+  .section-header {
+    grid-row-gap: 3em;
+    padding-top: 4em;
   }
   .banner {
     height: 30vh;
-    margin-bottom: 8em;
   }
   .projects {
-    padding-bottom: 10em;
-    grid-row-gap: 8em;
+    padding: 5em 0 6em;
+    grid-row-gap: 5em;
+  }
+  .projects h1 {
+    margin-top: 0;
   }
   .project {
     grid-column: 1 / -1;
@@ -471,18 +481,10 @@ html::-webkit-scrollbar {
         -ms-flex-pack: end;
             justify-content: end;
   }
-  a.hyperlink img {
-    width: 8em;
-    height: 8em;
-  }
-  .carousel figure {
-    grid-column: auto / span 18;
-  }
   .tools {
     -ms-grid-column: 3;
     -ms-grid-column-span: 36;
     grid-column: 3 / span 36;
-    grid-row-gap: 8em;
   }
   .tool {
     display: -ms-grid;
@@ -511,7 +513,6 @@ html::-webkit-scrollbar {
     line-height: 2;
   }
   .tool-icon {
-    height: 20em;
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1 / span 1;
@@ -528,15 +529,10 @@ html::-webkit-scrollbar {
     -ms-grid-column: 1;
         grid-column-start: 1;
   }
-  .contact {
-    grid-row-gap: 4em;
-  }
   .social a {
     color: #999999;
-    font-size: 4em;
   }
   .dash {
     padding: 0 .4em;
-    font-size: 4em;
   }
 }
