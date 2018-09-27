@@ -146,8 +146,8 @@ main section {
 .intro img {
   width: 100%;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 8;
-  grid-column: 1 / span 8;
+  -ms-grid-column-span: 10;
+  grid-column: 1 / span 10;
 }
 
 .intro h2 {
