@@ -169,7 +169,7 @@ main section {
 
 .banner {
   height: 50vh;
-  background-image: url(../img/BW2.jpg);
+  background-image: url(../img/BW.jpg);
   background-size: cover;
   -ms-grid-column: 1;
   -ms-grid-column-span: 36;
